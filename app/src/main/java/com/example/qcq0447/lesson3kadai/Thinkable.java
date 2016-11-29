@@ -1,0 +1,9 @@
+package com.example.qcq0447.lesson3kadai;
+
+/**
+ * Created by qcq0447 on 2016/11/29.
+ */
+
+public interface Thinkable {
+    public void think();
+}
