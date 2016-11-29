@@ -5,8 +5,8 @@ package com.example.qcq0447.lesson3kadai;
  */
 
 public abstract class Animal {
- //   String name;
- //   int age;
+    String name;
+    int age;
 
     abstract public void say();
 }

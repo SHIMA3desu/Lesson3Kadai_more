@@ -7,12 +7,14 @@ import android.util.Log;
  */
 
 public class Human extends Animal implements  Thinkable{
-    String name;
-    int age;
+//    String name;
+//    int age;
     String hobby = "読書";
     public Human(String name,int age){
-        this.name = name;
-        this.age = age;
+//        this.name = name;
+//        this.age = age;
+        super.name = name;
+        super.age = age;
     }
 
     public void say(){
