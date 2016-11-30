@@ -9,12 +9,14 @@ import android.util.Log;
 public class Human extends Animal implements  Thinkable{
 //    String name;
 //    int age;
-    String hobby = "読書";
-    public Human(String name,int age){
+//    String hobby = "読書";
+    String hobby = "";
+    public Human(String name,int age,String hob){
 //        this.name = name;
 //        this.age = age;
         super.name = name;
         super.age = age;
+        this.hobby = hob;
     }
 
     public void say(){
